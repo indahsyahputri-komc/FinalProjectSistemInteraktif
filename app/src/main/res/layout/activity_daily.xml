@@ -1,0 +1,1082 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:Android="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.example.belajarbahasajawa.DailyActivity">
+
+    <RelativeLayout
+        android:id="@+id/relatif1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_column="1"
+                android:src="@drawable/daily_banner"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scroll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="192dp">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginLeft="50dip"
+                    android:padding="3dip"
+                    android:text="1"
+                    android:textColor="@color/white"
+                    android:textSize="48sp"
+                    android:textStyle="bold"
+                    tools:layout_marginBottom="10dip" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="150dip"
+                    android:padding="3dip"
+                    android:text="(si - ji)"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Siapa namamu? Nama saya Ayu."
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Sopo jenenge sampeyan? Jenengku Ayu"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dip"
+                    android:text="Siapa namamu? Nama saya Ayu."
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dip"
+                    android:text="Sopo jenenge sampeyan? Jenengku Ayu"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Kamu sudah makan? Saya makan dengan sayur asem."
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Sampeyan sampun dahar?"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Aku uwes dahar kanggo jangan asem."
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dip"
+                    android:text="Siapa namamu? Nama saya Ayu."
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dip"
+                    android:text="Sopo jenenge sampeyan? Jenengku Ayu"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Saya asalnya dari Jawa."
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Aku asale soko Jowo"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dip"
+                    android:text="Siapa namamu? Nama saya Ayu."
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dip"
+                    android:text="Sopo jenenge sampeyan? Jenengku Ayu"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Bunga ini sangat cantik"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Kembange ayu tenan."
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dip"
+                    android:text="Siapa namamu? Nama saya Ayu."
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dip"
+                    android:text="Sopo jenenge sampeyan? Jenengku Ayu"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Jangan pulang larut malam."
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Ojo bali lewat mbengi"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dip"
+                    android:text="Siapa namamu? Nama saya Ayu."
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dip"
+                    android:text="Sopo jenenge sampeyan? Jenengku Ayu"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Permisi, boleh tanya di mana alamat ini?"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Ngampurasun, oleh takon alamat iki?"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dip"
+                    android:text="Siapa namamu? Nama saya Ayu."
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dip"
+                    android:text="Sopo jenenge sampeyan? Jenengku Ayu"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Yang itu harganya berapa, Pak/Buk?"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Kui regane piro, Pak/Buk?"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dip"
+                    android:text="Siapa namamu? Nama saya Ayu."
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dip"
+                    android:text="Sopo jenenge sampeyan? Jenengku Ayu"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Aku suka buah mangga"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Aku seneng woh pelem"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dip"
+                    android:text="Siapa namamu? Nama saya Ayu."
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dip"
+                    android:text="Sopo jenenge sampeyan? Jenengku Ayu"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Rumah saya disana. Bukan disini"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Omahku nang kono uduk nang kene"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dip"
+                    android:text="Siapa namamu? Nama saya Ayu."
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dip"
+                    android:text="Sopo jenenge sampeyan? Jenengku Ayu"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Tidak boleh kamu seperti itu. Itu salah"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Gak oleh sampeyan ngono iku. Iku salah."
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dip"
+                    android:text="Siapa namamu? Nama saya Ayu."
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dip"
+                    android:text="Sopo jenenge sampeyan? Jenengku Ayu"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Apa warna kesukaanmu?"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Opo werno kesenengan sampeyan?"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dip"
+                    android:text="Siapa namamu? Nama saya Ayu."
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dip"
+                    android:text="Sopo jenenge sampeyan? Jenengku Ayu"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Aku, Kamu, Dia, Kami, Mereka"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Aku, Sampeyan, De'e, Wong iku, Kami"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dip"
+                    android:text="Siapa namamu? Nama saya Ayu."
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dip"
+                    android:text="Sopo jenenge sampeyan? Jenengku Ayu"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Apa, Siapa, Kapan, Dimana, Mengapa, Berapa, Bagaimana"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Opo, Sopo, Kapan, Nangndi, Ngopo, Piro, Piye"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dip"
+                    android:text="Siapa namamu? Nama saya Ayu."
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dip"
+                    android:text="Sopo jenenge sampeyan? Jenengku Ayu"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Ini, Itu, Disini, Disitu, Disana, Begini, Begitu"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Iki, Iku, Nang kene, Nang kui, nang kono, Koyo ngene,"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:padding="3dip"
+                    android:text="Koyo ngono"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dip"
+                    android:text="Sopo jenenge sampeyan? Jenengku Ayu"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_span="3"
+                    android:text="0"
+                    android:textSize="20sp"
+                    android:textColor="@color/white">
+
+                </TextView>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/daily_quiz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_span="3"
+                    android:backgroundTint="@color/base"
+                    android:onClick="showPopupMenu_D"
+                    android:text="UJI KEMAMPUAN"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_span="3"
+                    android:text="0"
+                    android:textSize="20sp"
+                    android:textColor="@color/white">
+
+                </TextView>
+
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
